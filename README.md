@@ -1,4 +1,3 @@
-The final project.
 
 To make the program with Cmake put the following files in a folder
 Neuron.h,
