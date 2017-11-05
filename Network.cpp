@@ -63,7 +63,7 @@ void Network::InitializeExtActivity()
 {
 //-------------Initialisation of I--------------------------------------
 
-	std::cout << "Enter a value for the current " ;
+	std::cout << "Enter a value for the current " ;						//NOTE THE CURRENT IS APPLY TO ALL THE NEURONS
 	
 	//CONTROL OF THE VALUES (I > 0)
 	
@@ -142,7 +142,7 @@ void Network::Run()
 //-------------Opening python file--------------------------------------
 
 	std::ofstream Python_ ;
-	Python_.open("GraphPython4.txt") ;
+	Python_.open("GraphPython.txt") ;
 
 //-------------Generation of poisson distribution-----------------------
 	
