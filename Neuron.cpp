@@ -149,9 +149,9 @@ void Neuron::ReceiveSpike(int step,bool exc)
 {
 	if(exc)
 	{
-		ring_buffer_[(step) % (delay_step_+1)] += 1 ;
+		ring_buffer_[(step) % (delay_step_+1)] += Se_ ;
 	}else{
-		ring_buffer_[(step) % (delay_step_+1)] -= 5 ;
+		ring_buffer_[(step) % (delay_step_+1)] += Si_ ;
 	}
 }
 

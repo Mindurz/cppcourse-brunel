@@ -23,6 +23,8 @@ class Neuron
 	static const int delay_step_ = 15 ;									///< Delay between when the spike is send and when it is received
 	std::array <int, delay_step_+1> ring_buffer_ ; 						///< Buffer to implement the delay
 	static constexpr double J = 0.1 ; 									///< Amplitude
+	static constexpr int Se_ = 1 ;										///< Output of an excitatory spike
+	static constexpr int Si_ = -5 ;										///< Output of an inhibitory spike	
 	
 //------------Constants-------------------------------------------------
 	
