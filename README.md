@@ -1,5 +1,5 @@
 
-To make the program with Cmake put the following files in a folder
+To make the program with Cmake put the following files in a folder:
 Neuron.h,
 Neuron.cpp,
 Network.h,
