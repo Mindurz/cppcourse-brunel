@@ -16,5 +16,4 @@ To run the simulation use the command "./Neuron" and then enter the parameters, 
 To run the tests use the command "./Neuron_unittest"
 
 The repository also contains 5 "GraphPython.txt" one is a standard simulation (the one with no number). The other wher use to make the BrunnelPlots.pdf and they are linked like this:
-1 -> A,2 -> B, 3 -> C, 4 -> D
-
+1 -> A, 2 -> B, 3 -> C, 4 -> D
