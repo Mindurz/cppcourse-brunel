@@ -1,14 +1,14 @@
 The final project.
 
 To make the program with Cmake put the following files in a folder
-Neuron.h
-Neuron.cpp
-Network.h
-Network.cpp
-main.cpp
-Neuron_unittest.cpp
-Cmakelists.txt
-Doxyfile.in
+Neuron.h,
+Neuron.cpp,
+Network.h,
+Network.cpp,
+main.cpp,
+Neuron_unittest.cpp,
+Cmakelists.txt,
+Doxyfile.in,
 gtest (folder)
 
 Then use the commands "cmake ." and then "make" this will create 2 executables Neuron, the simulation and Neuron_unittest the tests of the functions.
